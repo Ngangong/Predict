@@ -14,7 +14,7 @@ import os
 
 def dudoan(param):  
     # load mô hình
-    filename="C:\\Users\\NGANT\\model_house.sav" #os.getcwd()+'\\Documents\\Streamlit\\model_house.sav'
+    filename="model_house.sav'
     #st.write(filename)
     loaded_model = pickle.load(open(filename,'rb')) 
     y_pred=loaded_model.predict(param)
